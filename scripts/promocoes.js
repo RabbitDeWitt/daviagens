@@ -18,7 +18,7 @@ for (let i = 0; i < 4; i++) {
 
   descontos.innerHTML += `
         <div class="card" style="width: 18rem;">
-          <img src="../assets/imgs/min/${img}_min.jpg" class="card-img-top" alt="Imagem de ${nome}">
+          <img src="./assets/imgs/min/${img}_min.jpg" class="card-img-top" alt="Imagem de ${nome}">
           <div class="card-body">
             <h5 class="card-title">${nome}</h5>
           </div>

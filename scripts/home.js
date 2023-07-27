@@ -41,7 +41,7 @@ for (let index = 0; index < randomNums.length; index++) {
   `
     carouselInner.innerHTML += `
   <div class="carousel-item ${index == 0 ? 'active' : ''}" data-bs-interval="5000">
-          <img src="./../assets/imgs/${img}.jpg" class="d-block w-100" alt="Imagem de ${nome}">
+          <img src="./assets/imgs/${img}.jpg" class="d-block w-100" alt="Imagem de ${nome}">
            <div class="carousel-caption px-2 d-none d-md-block">
             <h4>${nome}</h4>
             <p>${descricao}</p>
@@ -51,7 +51,7 @@ for (let index = 0; index < randomNums.length; index++) {
   } else if (index < 5) {
     destinyCardsSection.innerHTML += `
         <div class="card" style="width: 18rem;">
-          <img src="./../assets/imgs/min/${img}_min.jpg" class="card-img-top" alt="Imagem de ${nome}">
+          <img src="./assets/imgs/min/${img}_min.jpg" class="card-img-top" alt="Imagem de ${nome}">
           <div class="card-body">
             <h5 class="card-title">${nome}</h5>
             <p class="card-text">${descricaoMaior}
@@ -62,7 +62,7 @@ for (let index = 0; index < randomNums.length; index++) {
   } else {
     promotionCardsSection.innerHTML += `
         <div class="card" style="width: 18rem;">
-          <img src="./../assets/imgs/min/${img}_min.jpg" class="card-img-top" alt="Imagem de ${nome}">
+          <img src="./assets/imgs/min/${img}_min.jpg" class="card-img-top" alt="Imagem de ${nome}">
           <div class="card-body">
             <h5 class="card-title">${nome}</h5>
           </div>
