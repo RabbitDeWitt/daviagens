@@ -16,7 +16,7 @@ export const destinos = [
     nome: 'Seoul',
     img: 'seoul',
     descricao: '"Seoul, a cidade das mil faces e infinitas possibilidades."',
-    descricaoMaior: '"Seul, uma metrópole eletrizante que combina tradição e modernidade, oferecendo uma rica tapeçaria cultural, tecnológica e gastronômica, que hipnotiza e encanta seus visitantes."',
+    descricaoMaior: '"Seoul, uma metrópole eletrizante que combina tradição e modernidade, oferecendo uma rica tapeçaria cultural, tecnológica e gastronômica, que hipnotiza e encanta seus visitantes."',
     valor: 10675,
     desconto: 20,
     popularidade: 4,
